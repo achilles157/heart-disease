@@ -1,0 +1,20 @@
+Akurasi Model Hybrid (with SMOTE): 87.10%
+
+              precision    recall  f1-score   support
+
+           0       0.89      0.98      0.94        52
+           1       0.75      0.43      0.55        14
+           2       0.91      0.91      0.91        11
+           3       0.90      0.82      0.86        11
+           4       0.71      1.00      0.83         5
+
+    accuracy                           0.87        93
+   macro avg       0.83      0.83      0.82        93
+weighted avg       0.87      0.87      0.86        93
+
+Confusion Matrix:
+[[51  0  0  1  0]
+ [ 6  6  1  0  1]
+ [ 0  0 10  0  1]
+ [ 0  2  0  9  0]
+ [ 0  0  0  0  5]]
